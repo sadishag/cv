@@ -20,67 +20,67 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Sadisha Galappatti",
+  initials: "SG",
+  location: "Toronto, Ontario, Canada",
+  locationLink: "https://www.google.com/maps/place/Toronto",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack and Cloud Engineer focused on building, educating, and learning",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/4732303?v=4",
+  personalWebsiteUrl: "https://www.sadishagalappatti.ca",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "sadishag@gmail.com",
+    tel: "+12893392717",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/sadishag",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/sadishag/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/SadishaGX",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "McMaster University",
+      degree: "B.Eng - Software Engineering and Co-op",
+      start: "2012",
+      end: "2017",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Manulife",
+      link: "https://manulife.ca",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Senior Full Stack Cloud Engineer",
       logo: ParabolLogo,
       start: "2021",
-      end: "2024",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Implemented new features, led and coached cohorts in Manulife University, mentored engineers on various topics related to Engineering and Azure Cloud, adopted use of GitOps with Flux. Technologies: React, NodeJS, Flux, Kubernetes, Terraform",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Manulife",
+      link: "https://manulife.ca",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      title: "Full Stack Engineer",
+      logo: ParabolLogo,
+      start: "2019",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Designed and developed Advisor Portal modernization, built out a microservice architecture, developed pipelines with Jenkins and Concourse. Technologies: React, NodeJS, GraphQL, Jenkins, Concourse, Sonarqube"
     },
     {
       company: "Jojo Mobile",
@@ -92,26 +92,16 @@ export const RESUME_DATA = {
       end: "2015",
       description:
         "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+    }
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
+    "React",
+    "NodeJS",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Cloud",
+    "Terraform", 
+    "Flux"
   ],
   projects: [
     {
