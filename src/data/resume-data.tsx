@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   about:
     "Senior Software Engineer focused on building, educating, and learning",
   summary:
-    "As a Software Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React, Node.js and Terraform. I have over six years of experience working with a modern stack for various financial institutions in Canada.",
+    "As a Software Engineer, I have successfully taken multiple products from start to finish. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React, Node.js and Terraform. I have over six years of experience working with a modern stack for various financial institutions in Canada.",
   avatarUrl: "https://avatars.githubusercontent.com/u/4732303?v=4",
   personalWebsiteUrl: "https://www.sadishagalappatti.ca",
   contact: {
@@ -115,6 +115,5 @@ export const RESUME_DATA = {
         href: "https://www.sadishagalappatti.ca/",
       },
     },
-    
   ],
 } as const;
