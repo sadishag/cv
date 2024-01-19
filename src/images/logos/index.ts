@@ -36,5 +36,6 @@ export {
   TastyCloudLogo,
   YearProgressLogo,
   Minimal,
-  RBCLogo
+  RBCLogo,
+  ManulifeLogo
 };

@@ -17,6 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
   RBCLogo,
+  ManulifeLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -66,22 +67,11 @@ export const RESUME_DATA = {
       link: "https://manulife.ca",
       badges: ["Remote"],
       title: "Full Stack Engineer → Senior Full Stack Cloud Engineer",
-      logo: ParabolLogo,
+      logo: ManulifeLogo,
       start: "2021",
       end: "Present",
       description:
         "Implemented new features, led and coached cohorts in Manulife University, mentored engineers on various topics related to Engineering and Azure Cloud, adopted use of GitOps with Flux. Technologies: React, Node.js, GraphQL, Flux, Kubernetes, Terraform, Jenkins",
-    },
-    {
-      company: "Manulife",
-      link: "https://manulife.ca",
-      badges: ["Remote"],
-      title: "Full Stack Engineer",
-      logo: ParabolLogo,
-      start: "2019",
-      end: "2021",
-      description:
-        "Designed and developed Advisor Portal modernization, built out a microservice architecture, developed pipelines with Jenkins and Concourse. Technologies: React, Node.js, GraphQL, Jenkins, Concourse, Sonarqube"
     },
     {
       company: "RBC",
