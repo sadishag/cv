@@ -66,12 +66,12 @@ export const RESUME_DATA = {
       company: "Manulife",
       link: "https://manulife.ca",
       badges: ["Remote"],
-      title: "Full Stack Engineer → Senior Full Stack Cloud Engineer",
+      title: "Senior Full Stack Cloud Engineer",
       logo: ManulifeLogo,
-      start: "2021",
+      start: "2019",
       end: "Present",
       description:
-        "Implemented new features, led and coached cohorts in Manulife University, mentored engineers on various topics related to Engineering and Azure Cloud, adopted use of GitOps with Flux. Technologies: React, Node.js, GraphQL, Flux, Kubernetes, Terraform, Jenkins",
+        "Implemented new features, led and coached cohorts in Manulife University, mentored engineers on various topics related to Engineering and Azure Cloud, adopted use of GitOps with Flux. Technologies: React, Node.js, GraphQL, Flux, Kubernetes, Helm, Azure, Terraform, Jenkins, Debian",
     },
     {
       company: "RBC",
@@ -79,10 +79,10 @@ export const RESUME_DATA = {
       badges: [],
       title: "Software Developer",
       logo: RBCLogo,
-      start: "2012",
-      end: "2015",
+      start: "2017",
+      end: "2019",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Deployed, ran, and maintained API Gateway platform, build custom pipelines to deploy APIs to Gateway, created shared authorization flows implementing OAuth/OpenID Connect, MTLS, build and maintained shared logging flows on Gateway. Technologies: Ansible, Python, Java, Jenkins, Bash, Apigee, RHEL",
     }
   ],
   skills: [
@@ -93,167 +93,28 @@ export const RESUME_DATA = {
     "Cloud",
     "Terraform", 
     "Flux",
+    "Azure", 
+    "GCP",
+    "Gitops",
+    "Helm"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "sadishagalappatti.ca",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
+        "Node.js",
         "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
         "React",
-        "Node.js",
-        "GraphQL",
+        "Github Pages"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "My personal website used to host my resume and ",
+      logo: "",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "sadishagalappatti.ca",
+        href: "https://www.sadishagalappatti.ca/",
       },
     },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    
   ],
 } as const;
