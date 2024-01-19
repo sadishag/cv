@@ -16,6 +16,7 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  RBCLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -25,9 +26,9 @@ export const RESUME_DATA = {
   location: "Toronto, Ontario, Canada",
   locationLink: "https://www.google.com/maps/place/Toronto",
   about:
-    "Full Stack and Cloud Engineer focused on building, educating, and learning",
+    "Senior Software Engineer focused on building, educating, and learning",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a Software Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React, Node.js and Terraform. I have over six years of experience working with a modern stack for various financial institutions in Canada.",
   avatarUrl: "https://avatars.githubusercontent.com/u/4732303?v=4",
   personalWebsiteUrl: "https://www.sadishagalappatti.ca",
   contact: {
@@ -46,7 +47,7 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://x.com/SadishaGX",
+        url: "https://x.com/SadishaG",
         icon: XIcon,
       },
     ],
@@ -55,8 +56,8 @@ export const RESUME_DATA = {
     {
       school: "McMaster University",
       degree: "B.Eng - Software Engineering and Co-op",
-      start: "2012",
-      end: "2017",
+      start: "",
+      end: "",
     },
   ],
   work: [
@@ -64,12 +65,12 @@ export const RESUME_DATA = {
       company: "Manulife",
       link: "https://manulife.ca",
       badges: ["Remote"],
-      title: "Senior Full Stack Cloud Engineer",
+      title: "Full Stack Engineer → Senior Full Stack Cloud Engineer",
       logo: ParabolLogo,
       start: "2021",
       end: "Present",
       description:
-        "Implemented new features, led and coached cohorts in Manulife University, mentored engineers on various topics related to Engineering and Azure Cloud, adopted use of GitOps with Flux. Technologies: React, NodeJS, Flux, Kubernetes, Terraform",
+        "Implemented new features, led and coached cohorts in Manulife University, mentored engineers on various topics related to Engineering and Azure Cloud, adopted use of GitOps with Flux. Technologies: React, Node.js, GraphQL, Flux, Kubernetes, Terraform, Jenkins",
     },
     {
       company: "Manulife",
@@ -80,14 +81,14 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:
-        "Designed and developed Advisor Portal modernization, built out a microservice architecture, developed pipelines with Jenkins and Concourse. Technologies: React, NodeJS, GraphQL, Jenkins, Concourse, Sonarqube"
+        "Designed and developed Advisor Portal modernization, built out a microservice architecture, developed pipelines with Jenkins and Concourse. Technologies: React, Node.js, GraphQL, Jenkins, Concourse, Sonarqube"
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "RBC",
+      link: "rbc.com",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
+      title: "Software Developer",
+      logo: RBCLogo,
       start: "2012",
       end: "2015",
       description:
@@ -97,11 +98,11 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "React",
-    "NodeJS",
+    "Node.js",
     "GraphQL",
     "Cloud",
     "Terraform", 
-    "Flux"
+    "Flux",
   ],
   projects: [
     {
