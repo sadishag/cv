@@ -111,7 +111,7 @@ export const RESUME_DATA = {
         "Github Actions",
         "CI/CD",
       ],
-      description: "My personal website used to host my resume and contact info setup.",
+      description: "Repo for personal website",
       logo: "",
       link: {
         label: "sadishag.github.io",
