@@ -118,5 +118,21 @@ export const RESUME_DATA = {
         href: "https://github.com/sadishag/sadishag.github.io",
       },
     },
+    {
+      title: "cv.sadishagalappatti.ca",
+      techStack: [
+        "Side Project",
+        "Node.js",
+        "Vite",
+        "Next.js",
+        "Vercel",
+      ],
+      description: "Repository for this site. All credit goes to Bartosz Jarocki who built the template.",
+      logo: "",
+      link: {
+        label: "cv.sadishagalappatti.ca",
+        href: "https://github.com/sadishag/cv",
+      },
+    },
   ],
 } as const;
